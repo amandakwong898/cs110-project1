@@ -1,0 +1,117 @@
+1. Enter the number of hours it took you to complete the project
+between the <<<  and >>> signs below (eg,<<< 10 >>>).
+
+<<< 7 >>>
+
+2. Enter the difficulty level (1: very easy; 5: very difficult) of
+the project between <<< and >>> signs below (eg, <<< 3 >>>).
+
+<<< 3 >>>
+
+3. Provide a short description of how you approached each problem,
+issues you encountered, and how you resolved those issues.
+
+Problem 1 (Day of the Week): By seeing the very first problem
+of the project and by being new to this language, I was very
+intimidated by the set of equations presented to us to
+calculate the day of the week. However, after completing the
+5 exercises before, I just did the bare minimum by reading
+the three integers as command-line arguments (and I felt
+better because at least I did something!!!). After that,
+I put in the equations given to us and then wrote out the
+variable d.
+
+Problem 2 (Mercator Projection): The hints given in the
+checklist helped me a lot, particularly for this question
+because I did not know how to represent 'ln' in Python. I
+started by taking two floats, longitude and latitude, as
+command-line arguments, and assigned x and y to their
+respective equations. One problem that arose while coding was
+that I confused which variable was assigned to which, and in
+which order it was expected to print out. I solved this issue
+by rereading the problem over until I completely understood
+what it was asking for.
+
+Problem 3 (Great Circle Distance): A major problem I had while
+trying to solve this problem was the order of the parentheses
+and also making sure that the equation did not exceed 80 line
+(so it would pass the pycodestyle tests). I first wrote out
+the equation on paper so I could understand it better and not
+get too confused. From there, I decided to create 4 variables
+and convert them into radians, then find the sin and cos of
+them. By breaking up the equation, I found my code to be more
+clear and concise. 
+
+Problem 4 (Wind Chill): I did not really run into any problems
+with question 4. It was pretty straight-forward: I took two
+floats, t and v, as command-line arguments. Then, I wrote the
+equation to find the wind-speed (w), which was produced in the
+terminal when prompted by a user.
+
+Problem 5 (Gravitational Force): Upon looking at this problem,
+I assumed that G was just another variable we had to use in the
+command-line, but I then realized at the bottom that it was a
+given constant. I took three floats (two masses and one
+distance), assigned variable G to its value and plugged it
+into the graviational force equation to find F.
+
+Problem 6 (Snell's Law): This was one of the hardest problems,
+and I only arrived a problem at the very end when the last
+decimal place (4) would not appear on the terminal screen. I
+tried googling if there was a limit as to how many characters
+Python could produce, I asked on Piazza, but there was still
+no solution that I could find. Finally, with the help of the
+SI, I realized that n1 and n2 should not have been converted
+to radians. That changed my answer, and I felt so relieved
+after spending so many days stressing about it.
+
+Problem 7 (Gambler's Ruin): This, again, was a difficult
+problem because of the number of parenthesis you had to use
+and how lengthy these two equations were. Again, I wrote the
+equations down in pseudocode on paper first, then I converted
+it into code. I read two integers and 1 float, set q equal to
+1 - p, and wrote out the equation and solved for P1 and P2.
+
+Problem 8 (Waiting Time): I did not have much trouble
+completing this problem. I took two floats and wrote out the
+equation solving for Pt. Since math.exp was already given (as
+well as the other hints made in the checklist), I was able to
+finish this problem rather quickly.
+
+Problem 9 (Die Roll): I had to google how to use the random
+function, and found out you have to have two parameters as
+ranges. From there, I created a variable val that gives the
+sum of the two randomized numbers.
+
+Problem 10 (Three Sort): This was kind of a hard problem to
+tackle, but after some trial and error I figured it out. I
+started by taking three integers as command-line arguments,
+and creating variables m for finding the min value of x, y,
+and z, and M for finding the max value of x, y, and z. To
+find the middle value, I added all three integers together
+and subtracted that value by the sum of the max and min.
+Finally, I wrote out the result in ascending order.
+
+4. Did you receive help from anyone? List their names, status
+(classmate, CS110 grad, TA, other), and the nature of help
+received.
+
+Name               Status       Help Received
+----               ------       -------------
+Laura Chamberlain
+SI
+She helped explain certain mathematical concepts I needed
+to solve certain problems (i.e. when to convert from degrees
+to radians and vice versa)
+
+Alvin Lam
+Sophomore @ UMB
+Helped me understand what the question was asking
+
+5. List any other comments here. Feel free to provide any feedback
+on how much you learned from doing the assignment, and whether you
+enjoyed doing it.
+
+This was a great introduction to Python! Thank you so much
+for your help and guidance, and I can't wait for the rest
+of the semester.

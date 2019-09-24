@@ -1,0 +1,11 @@
+---
+:id: 20502074
+:submitters:
+- :name: Amanda Kwong
+  :email: amanda.kwong001@umb.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2019-09-19 17:18:37.639224000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2019-09-19 10:18:37.639224000 Z
+:status: processed
